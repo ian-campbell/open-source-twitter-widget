@@ -10,7 +10,9 @@
 }
 
 body {
-    font: 400 normal 15px/1.3 -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
+    font-weight: 400;
+    font-size: 15px/1.3;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
 }
 
 .twitter-feed-inner {
@@ -90,7 +92,21 @@ body {
 }
 
 .twitter-feed-header-user-info-name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
     color: #e1e1e1;
+}
+
+.twitter-feed-header-user-info-screen-name {
+    color: rgba(225,225,225,0.7);
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 2px;
 }
 
 .twitter-feed-header-user-info-name-verified-container {
