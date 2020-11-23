@@ -102,6 +102,16 @@ body {
     white-space: nowrap;
 }
 
+.twitter-feed-header-user-info-name-wrapper .twitter-feed-header-user-info-screen-name a,
+.twitter-feed-header-user-info-name-wrapper .twitter-feed-header-user-info-name a {
+    text-decoration: none;
+    color: currentColor;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-shadow: none;
+}
+
 .twitter-feed-header-statistics{
 
 
