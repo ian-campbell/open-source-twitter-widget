@@ -201,20 +201,71 @@ body {
     margin-right: 0;
 }
 
+.twitter-feed-posts{
+    background-color: #121212;
+    height: 100%;
+}
+
+.twitter-feed-posts-container{
+    overflow: auto;
+    height: 100%;
+}
 
 
+.twitter-feed-posts-inner{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 8px;
+}
 
+.twitter-feed-posts-item {
+    box-sizing: border-box;
+    opacity: 0;
+    width: 100%;
+    padding: 4px;
+    position: relative;
+    padding: 8px 0 0;
+}
 
+#myid123{
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+    visibility: visible; 
+    will-change: transform; 
+    opacity: 1; 
+    transition-duration: 100ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    transition-property: transform, opacity;
+}
 
+.twitter-feed-posts-item-inner {
+    padding: 12px;
+    background-color: #1e1e1e;
+    visibility: visible;
+}
 
+.twitter-feed-posts-item-retweet-status {
+    display: flex;
+    margin-bottom: 12px;
+}
+.twitter-feed-posts-item-retweet-status-icon {
+    position: relative;
+    top: -2px;
+    fill: rgba(225,225,225,0.7);
+}
 
+.twitter-feed-posts-item-retweet-status-label{
+    color: rgba(225,225,225,0.7);
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 8px;
+}
 
-
-
-
-
-
-
+.twitter-feed-posts-item-retweet-status-label-link{
+    text-decoration: none;
+    color: rgba(225,225,225,0.7);
+}
 
 
 
