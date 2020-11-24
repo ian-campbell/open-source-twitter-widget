@@ -1,7 +1,11 @@
 
 
+/* override default bootstrap box-sizing: border-box; */
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+
 .twitter-feed-wrapper{
-    box-sizing: content-box !important;
     max-width: 300px !important;
 }
 
@@ -170,7 +174,62 @@ body {
 }
 
 .twitter-feed-header-statistics{
-
-
-
+    display: flex;
+    margin-top: 16px;
+    padding: 0 14px 16px;
 }
+
+.twitter-feed-header-statistics-item{
+    margin-right: 28px;
+}
+
+.twitter-feed-header-statistics-item-name{
+    color: rgba(225,225,225,0.7);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.twitter-feed-header-statistics-item-data{
+    color: #e1e1e1;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+.twitter-feed-header-statistics-item:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
