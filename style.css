@@ -1,6 +1,7 @@
 
 
 .twitter-feed-wrapper{
+    box-sizing: content-box !important;
     max-width: 300px !important;
 }
 
@@ -126,6 +127,46 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
     box-shadow: none;
+}
+
+.twitter-feed-header-user-info-follow{
+    border-color: rgb(29, 161, 242);
+    background-color: rgb(29, 161, 242);
+    color: #fff;
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    padding: 0 20px;
+    height: 28px;
+    border-radius: 16px;
+    border: 1px solid #32a0c2;
+    color: #32a0c2;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.2s ease all;
+    background-color: #1da1f2;
+    opacity: 1;
+    box-shadow: none;
+    box-sizing: content-box;
+}
+
+.twitter-feed-header-user-info-follow img {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    fill: #fff;
+}
+
+
+.twitter-feed-header-user-info-follow-label{
+    color: #fff;
+    pointer-events: none;
 }
 
 .twitter-feed-header-statistics{
