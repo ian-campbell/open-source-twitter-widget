@@ -12,14 +12,7 @@ def auth():
 
 def create_url():
     query = "from:elonmusk"
-    # Tweet fields are adjustable.
-    # Options include:
-    # attachments, author_id, context_annotations,
-    # conversation_id, created_at, entities, geo, id,
-    # in_reply_to_user_id, lang, non_public_metrics, organic_metrics,
-    # possibly_sensitive, promoted_metrics, public_metrics, referenced_tweets,
-    # source, text, and withheld
-    tweet_fields = "tweet.fields=author_id,created_at,entities"
+    tweet_fields = "tweet.fields=author_id,created_at"
     url = "https://api.twitter.com/2/tweets/search/recent?query={}&{}".format(
         query, tweet_fields
     )
